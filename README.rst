@@ -14,12 +14,14 @@ and the object-oriented design makes it easy to re-use in other projects.
 Installation:
 -------------
 ::
+
     git clone https://github.com/jbaiter/pyomxplayer.git
     python pyomxplayer/setup.py install
 
 Example:
 --------
 ::
+
     >>> from pyomxplayer import OMXPlayer
     >>> from pprint import pprint
     >>> omx = OMXPlayer('/tmp/video.mp4')
